@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import data from './data';
-import {AiFillPlusCircle, AiFillMinusCircle} from 'react-icons/ai'
+import {AiFillPlusCircle, AiFillMinusCircle, AiOutlinePlusCircle} from 'react-icons/ai'
 
 const Question = () => {
   const [items, setItems] = useState(data);
