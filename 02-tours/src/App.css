@@ -1,0 +1,131 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-transform: capitalize;
+  line-height: 1.5;
+  font-size: 0.75rem;
+}
+
+main{
+  width: 90vw;
+  max-width: 680px;
+  margin: 5rem auto;
+}
+
+.title{
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.underline{
+  width: 6rem;
+  height: 0.25rem;
+  background-color: cadetblue;
+  margin: 0.5rem auto;
+}
+.single-tour{
+  background-color: white;
+  margin: 2rem 0;
+  border-radius: 0.25rem;
+  box-shadow: 2px 5px 15px rgba(0,0,0,0.1);
+  transition: all 0.3s linear;
+  padding: 1rem 0;
+  
+}
+.single-tour:hover{
+  box-shadow: 2px 5px 15px rgba(0,0,0,0.2);
+}
+.single-tour img{
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+.tour-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+.tour-info h3,
+.tour-info h4{
+  letter-spacing: 0.1rem;
+  line-height: 1.75;
+}
+.tour-info .price{
+  background-color: lightcyan;
+  padding: 0 0.25rem;
+  margin-right: 1.5rem;
+}
+.show-info{
+  padding: 0 0.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+.show-info button{
+  margin-left: 1rem;
+}
+.btn{
+  background-color: lightcyan;
+  color: cadetblue;
+  font-size: 0.875rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  border: none;
+  box-shadow: 1px 5px 15px rgba(0,0,0,0.1);
+}
+.btn:hover{
+  color: lightcyan;
+  background-color: cadetblue;
+  box-shadow: 1px 5px 15px rgba(0,0,0,0.2);
+}
+.delete-btn{
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  display: block;
+  margin: 2rem auto;
+}
