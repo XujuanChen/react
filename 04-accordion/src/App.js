@@ -3,7 +3,6 @@ import './index.css';
 import Question from './Question'
 
 function App() {
-
   return (
     <main>
       <div className="title">
